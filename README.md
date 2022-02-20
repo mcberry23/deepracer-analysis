@@ -6,24 +6,11 @@ This is a fork of [aws-deepracer-community/deepracer-analysis](https://github.co
 
 ## Setup
 
-The notebooks require Jupyter to run, together with deepracer-utils. While not needed
-for using the notebooks, it's worth to also have Jupytext installed.
-
-If you only plan to use the notebooks, I recommend that you make a copy of them to enable
-seamless pulls of any updates.
-
-If you pull latest changes for the notebooks, do also run
+Install pip packages
 ```
 pip install --upgrade -r requirements.txt
 ```
-in your venv. This way you will also get upgrades on the requirements.
 
-```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install --upgrade -r requirements.txt
-jupyter lab
-```
 
 ## Start Analysis
 
